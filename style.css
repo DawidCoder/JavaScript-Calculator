@@ -1,0 +1,46 @@
+body {
+    background-color: lightblue;
+}
+
+.container{
+    max-width: 400px;
+    margin: 130px auto 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+}
+
+#display{
+    text-align: right;
+    height: 120px;
+    line-height: 200px;
+    padding: 16px 8px;
+    font-size: 25px;
+}
+
+.buttons{
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    grid-template-columns: 100px 100px 100px 100px;
+}
+.buttons > div{
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+}
+.button{
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+#result:hover{
+    background-color: orange;
+}
